@@ -1,0 +1,42 @@
+object Form1: TForm1
+  Left = 238
+  Height = 240
+  Top = 150
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '1.0.14.0'
+  object ilang: TEdit
+    Left = 0
+    Height = 23
+    Top = 8
+    Width = 320
+    TabOrder = 0
+  end
+  object Munculkan: TButton
+    Left = 26
+    Height = 25
+    Top = 104
+    Width = 94
+    Caption = 'Munculkan'
+    OnClick = MunculkanClick
+    TabOrder = 1
+  end
+  object Balik: TButton
+    Left = 184
+    Height = 25
+    Top = 104
+    Width = 99
+    Caption = 'Busek'
+    OnClick = BalikClick
+    TabOrder = 2
+  end
+  object Ical: TLabel
+    Left = 137
+    Height = 1
+    Top = 45
+    Width = 1
+    ParentColor = False
+  end
+end
